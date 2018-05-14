@@ -1,0 +1,42 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "App 1",
+      "type": "python",
+      "request": "launch",
+      "module": "flask",
+      "env": {
+        "FLASK_APP": "${workspaceFolder}/app_1.py"
+      },
+      "args": [
+        "run",
+        "--no-debugger",
+        "--no-reload"
+      ]
+    },
+    {
+      "name": "App 2",
+      "type": "python",
+      "request": "launch",
+      "module": "flask",
+      "env": {
+        "FLASK_APP": "${workspaceFolder}/app_2.py"
+      },
+      "args": [
+        "run",
+        "--no-debugger",
+        "--no-reload"
+      ]
+    },
+  ],
+  "compounds": [
+    {
+      "name": "Compound",
+      "configurations": ["App 1", "App 2"]
+    }
+  ]
+}
