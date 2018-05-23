@@ -1,6 +1,7 @@
 {
-  "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+  "python.pythonPath": "C:\\Users\\dekeeler\\.virtualenvs\\vscode-python-compund-debugging-test-0HBBF_Nl\\scripts\\python.exe",
   "python.venvPath": "${workspaceFolder}/.venv",
   "python.linting.mypyEnabled": false,
-  "python.linting.pylintEnabled": false
+  "python.linting.pylintEnabled": false,
+  "python.unitTest.useExperimentalDebugger": true
 }

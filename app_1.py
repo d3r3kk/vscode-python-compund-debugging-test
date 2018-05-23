@@ -2,6 +2,6 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/app1')
 def index():
-  return 'Hello, World!'
+  return 'Hello, APP1!'

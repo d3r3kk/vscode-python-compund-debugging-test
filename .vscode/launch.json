@@ -10,7 +10,7 @@
       "request": "launch",
       "module": "flask",
       "env": {
-        "FLASK_APP": "${workspaceFolder}/app_1.py"
+        "FLASK_APP": "app_1.py"
       },
       "args": [
         "run",
@@ -24,7 +24,7 @@
       "request": "launch",
       "module": "flask",
       "env": {
-        "FLASK_APP": "${workspaceFolder}/app_2.py"
+        "FLASK_APP": "app_2.py"
       },
       "args": [
         "run",
